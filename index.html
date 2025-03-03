@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Compressor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Compressor</h1>
+        <div class="upload-container">
+            <input type="file" id="fileInput" hidden>
+            <label for="fileInput" class="upload-btn">Upload File</label>
+            <span class="drag-drop-text">or Drag & Drop</span>
+        </div>
+        <div class="preview-container" id="previewContainer">
+            <p>No file selected</p>
+        </div>
+        <button class="compress-btn" id="compressBtn" disabled>Compress File</button>
+        <div class="results-container" id="resultsContainer">
+            <!-- Compression results will be displayed here -->
+        </div>
+    </div>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAD9-mA2tV5I1eava5BxzYP1Jp3DYPeI2U",
+          authDomain: "file-compressor-ak47.firebaseapp.com",
+          projectId: "file-compressor-ak47",
+          storageBucket: "file-compressor-ak47.firebasestorage.app",
+          messagingSenderId: "962097297236",
+          appId: "1:962097297236:web:185ef0a926462b960b7ac1",
+          measurementId: "G-1PEP4SDXPR"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
