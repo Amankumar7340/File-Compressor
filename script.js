@@ -11,7 +11,22 @@ document.addEventListener('DOMContentLoaded', () => {
     fileInput.addEventListener('change', (e) => {
         file = e.target.files[0];
         if (file) {
-            previewContainer.innerHTML = `<p>Selected File: ${file.name} (${(file.size / 1024).toFixed(2)} KB)</p>`;
+            // Display file name and size
+            previewContainer.innerHTML = `
+                <p>Selected File: ${file.name} (${(file.size / 1024).toFixed(2)} KB)</p>
+            `;
+
+            // Display image preview if the file is an image
+            if (file.type.startsWith('image/')) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    previewContainer.innerHTML += `
+                        <img src="${e.target.result}" alt="Uploaded Image">
+                    `;
+                };
+                reader.readAsDataURL(file);
+            }
+
             compressBtn.disabled = false;
         }
     });
@@ -32,7 +47,22 @@ document.addEventListener('DOMContentLoaded', () => {
         uploadContainer.style.backgroundColor = 'transparent';
         file = e.dataTransfer.files[0];
         if (file) {
-            previewContainer.innerHTML = `<p>Selected File: ${file.name} (${(file.size / 1024).toFixed(2)} KB)</p>`;
+            // Display file name and size
+            previewContainer.innerHTML = `
+                <p>Selected File: ${file.name} (${(file.size / 1024).toFixed(2)} KB)</p>
+            `;
+
+            // Display image preview if the file is an image
+            if (file.type.startsWith('image/')) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    previewContainer.innerHTML += `
+                        <img src="${e.target.result}" alt="Uploaded Image">
+                    `;
+                };
+                reader.readAsDataURL(file);
+            }
+
             compressBtn.disabled = false;
         }
     });
