@@ -26,20 +26,6 @@ A simple web-based file compressor that supports multiple compression techniques
 │── script.js          # Main JavaScript logic
 ```
 
-## How It Works
-
-1. Upload or drag and drop a file.
-2. The selected file’s name and size appear, and an image preview is displayed if applicable.
-3. Click the "Compress File" button.
-4. The file is compressed using five different techniques.
-5. Download the compressed versions from the results section.
-
-## Compression Simulation
-
-Currently, the compression algorithms are simulated by reducing file size using JavaScript slicing. Future improvements may include real implementations using WebAssembly or server-side processing.
-
-## Future Enhancements
-
 - Implement real compression algorithms.
 - Support more file formats.
 - Provide a progress bar for compression.
