@@ -1,6 +1,6 @@
 # File Compressor
 
-A simple web-based file compressor that supports multiple compression techniques, including Huffman Coding, LZ77, DEFLATE, Brotli, and Zstandard. Users can upload or drag & drop a file, preview it, and compress it using different algorithms.
+A simple web-based file compressor that supports multiple compression techniques, including Huffman Coding, LZ77, DEFLATE, Brotli, and Zstandard. Users can upload or drag & drop a file, preview it, and compress it using different algorithms. It is comparative view where yor file compressed in all of the compression techniques and you can compare and choose best out of it.
 
 ## Features
 
@@ -14,6 +14,7 @@ A simple web-based file compressor that supports multiple compression techniques
   - Zstandard
 - **Download Compressed Files:** Users can download the compressed versions of their uploaded file.
 - **Stylish UI:** A modern, responsive design with a gradient background and glassmorphism effects.
+- 
 
 ## Weblink: (https://file-compressor-ak47.web.app/)
 
