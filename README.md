@@ -32,3 +32,11 @@ A simple web-based file compressor that supports multiple compression techniques
 - Provide a progress bar for compression.
 
 Feel free to modify the description based on your needs! 🚀
+Feel free to modify the description based on your needs! 🚀
+Feel free to modify the description based on your needs! 🚀
+Feel free to modify the description based on your needs! 🚀
+Feel free to modify the description based on your needs! 🚀
+Feel free to modify the description based on your needs! 🚀
+Feel free to modify the description based on your needs! 🚀
+Feel free to modify the description based on your needs! 🚀
+Feel free to modify the description based on your needs! 🚀
