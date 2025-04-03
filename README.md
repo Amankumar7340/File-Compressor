@@ -17,9 +17,6 @@ A simple web-based file compressor that supports multiple compression techniques
 - 
 
 ## Weblink: (https://file-compressor-ak47.web.app/)
-## Weblink: (https://file-compressor-ak47.web.app/)
-## Weblink: (https://file-compressor-ak47.web.app/)
-## Weblink: (https://file-compressor-ak47.web.app/)
 
 
 ## Project Structure
@@ -34,13 +31,3 @@ A simple web-based file compressor that supports multiple compression techniques
 - Implement real compression algorithms.
 - Support more file formats.
 - Provide a progress bar for compression.
-
-Feel free to modify the description based on your needs! 🚀
-Feel free to modify the description based on your needs! 🚀
-Feel free to modify the description based on your needs! 🚀
-Feel free to modify the description based on your needs! 🚀
-Feel free to modify the description based on your needs! 🚀
-Feel free to modify the description based on your needs! 🚀
-Feel free to modify the description based on your needs! 🚀
-Feel free to modify the description based on your needs! 🚀
-Feel free to modify the description based on your needs! 🚀
