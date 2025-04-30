@@ -29,3 +29,42 @@ A simple web-based file compressor that supports multiple compression techniques
 - Implement real compression algorithms.
 - Support more file formats.
 - Provide a progress bar for compression.
+
+## Project Structure
+
+```
+/file-compressor
+│── index.html         # Main HTML file
+│── styles.css         # Stylesheet for UI
+│── script.js          # Main JavaScript logic
+```
+
+- Implement real compression algorithms.
+- Support more file formats.
+- Provide a progress bar for compression.
+
+## Project Structure
+
+```
+/file-compressor
+│── index.html         # Main HTML file
+│── styles.css         # Stylesheet for UI
+│── script.js          # Main JavaScript logic
+```
+
+- Implement real compression algorithms.
+- Support more file formats.
+- Provide a progress bar for compression.
+
+## Project Structure
+
+```
+/file-compressor
+│── index.html         # Main HTML file
+│── styles.css         # Stylesheet for UI
+│── script.js          # Main JavaScript logic
+```
+
+- Implement real compression algorithms.
+- Support more file formats.
+- Provide a progress bar for compression.
